@@ -1,0 +1,10 @@
+4
+[(675, 585), (595, 569), (649, 455), (734, 435), (570, 475)]
+[2, 2, 2, 2, 0]
+[4, 2, 1, 0, 3]
+['RoomA', 'RoomB', 'RoomC', 'RoomD', 'RoomE']
+[100, 50, 30, 40, 80]
+[8, 7, 6, 5, 4]
+['N', 'none', 'none', 'none', 'W']
+[['RoomA', 'RoomB', 'RoomE', 'RoomA'], ['RoomB', 'RoomD', 'RoomC', 'RoomE', 'RoomB'], ['RoomA', 'RoomB', 'RoomC', 'RoomE', 'RoomA']]
+[3, 1, 2]
