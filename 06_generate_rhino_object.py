@@ -68,7 +68,7 @@ def is_integer(number):
 
 
 
-f = open('/Old/4_5_info_exchange.txt', mode='r', encoding='utf-8')
+f = open('D:/Delft Courses/Graduation/PythonProject/daylighthour_layout_pathfinding/4_5_info_exchange.txt', mode='r', encoding='utf-8')
 infolist = []
 for line in f:
     infolist.append(line.strip())

@@ -512,7 +512,7 @@ def main():
 
     # Draw daylight map in to space
     # Test code start##########Enable this to test in Pycharm################
-    f = open('/Old/daylighthours.txt', mode='r', encoding='utf-8')
+    f = open('D:/Delft Courses/Graduation/PythonProject/daylighthour_layout_pathfinding/4_5_info_exchange.txt', mode='r', encoding='utf-8')
     daylighthours = []
     for line in f:
         line = line.strip()
@@ -613,7 +613,7 @@ def main():
                         rooms_shape_list_pos_out.append(shape_pos_order)
                         body_type_list_out.append(body_type_order)
 
-                    f = open('/Old/4_5_info_exchange.txt', mode='w',
+                    f = open('D:/Delft Courses/Graduation/PythonProject/daylighthour_layout_pathfinding/4_5_info_exchange.txt', mode='w',
                              encoding='utf-8')
                     f.write(f'{phase_index}')
                     f.write('\n')

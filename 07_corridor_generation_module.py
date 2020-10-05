@@ -321,7 +321,7 @@ def main(win, width,height):
     end = None
 
     run = True
-    f = open('/Old/4_5_info_exchange.txt', mode='r', encoding='utf-8')
+    f = open('D:/Delft Courses/Graduation/PythonProject/daylighthour_layout_pathfinding/4_5_info_exchange.txt', mode='r', encoding='utf-8')
     infolist = []
     for line in f:
         infolist.append(line.strip())
@@ -533,7 +533,7 @@ def main(win, width,height):
 
 
                 if event.key == pygame.K_o:
-                    f = open('/Old/7_path_info_exchange.txt', mode='w', encoding='utf-8')
+                    f = open('D:/Delft Courses/Graduation/PythonProject/daylighthour_layout_pathfinding/7_path_info_exchange.txt', mode='w', encoding='utf-8')
                     f.write(f'{path_list}')
 
 
